@@ -1,6 +1,6 @@
 import React from 'react'
-import InteractiveMap from '../components/Map';
-import Navbar from '../components/Navbar';
+import InteractiveMap from '../components/Map/Map';
+import Navbar from '../components/Header/Navbar';
 import styled from 'styled-components'
 
 const StyledLoginPage = styled.div`
@@ -15,7 +15,6 @@ const MapPage = () => {
       <Navbar/>
       <InteractiveMap/>
     </StyledLoginPage>
-    
   )
 }
 

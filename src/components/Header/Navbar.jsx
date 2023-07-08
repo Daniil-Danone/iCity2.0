@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from '../UI/Logo'
+import Logo from '../../UI/Logo'
 import AuthBlock from './AuthBlock'
-import Container from '../UI/Container'
+import Container from '../../UI/Container'
 import styled from 'styled-components'
 import Menu from './Menu'
 

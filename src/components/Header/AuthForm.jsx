@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Form from '../UI/Form';
-import Popup from '../UI/Popup';
-import Input from '../UI/Input';
-import Title from '../UI/Title';
-import Button from '../UI/Button';
-import UserService from '../API/UserAPI'
+import Form from '../../UI/Form';
+import Popup from '../../UI/Popup';
+import Input from '../../UI/Input';
+import Title from '../../UI/Title';
+import Button from '../../UI/Button';
+import UserService from '../../API/UserAPI'
 
 const AuthForm = ({ type, isActive, setIsActive, setIsLogin}) => {    
     const [email, setEmail] = useState('');

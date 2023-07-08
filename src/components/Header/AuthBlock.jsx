@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
-import { AuthContext } from '../context';
-import AuthForm from '../components/AuthForm';
-import Button from '../UI/Button';
+import { AuthContext } from '../../context'
+import AuthForm from './AuthForm';
+import Button from '../../UI/Button';
 
 import styled from 'styled-components'
 
